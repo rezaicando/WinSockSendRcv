@@ -64,7 +64,7 @@ jobs:
     - name : set env
       run: echo “::add-path::C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin”      
     - name: Build DotNET471
-      run: msbuild rezaicando/WinSockSendRcv.sln
+      run: msbuild rezaicando\WinSockSendRcv.sln
          
   
 
