@@ -49,7 +49,7 @@ namespace WinSockSendRcv
             {
                 Console.WriteLine(se.ErrorCode + ": " + se.Message);
             }
-            //close the port
+            //close the port 
             client.Close();
         }
     }
