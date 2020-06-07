@@ -40,7 +40,9 @@ name: .NET Core Desktop
 
 on:
   push:
-    branches: master,test 
+    branches: 
+    - master
+    - test 
   
   
   
