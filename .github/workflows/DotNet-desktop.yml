@@ -41,6 +41,7 @@ name: .NET Framework Desktop
 on:
   push:
     branches: [ master ]
+    branches: [ test ]
   pull_request:
     branches: [ master ]
 
