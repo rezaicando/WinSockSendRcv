@@ -17,7 +17,7 @@ namespace WinSockSendRcv
                 throw new System.ArgumentException("Parameters: <Server> <Port> <Data>");
             }
 
-            //Server name or IP Address - for test
+            //Server name or IP Address - for test v
             string server = args[0];
 
             //Use port argument if entered,otherwise default to 22
